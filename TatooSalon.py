@@ -23,9 +23,9 @@ Class User:
         self.password = p
 
 Class Customer (User):
-    def __init__(self, d, r)
-    self.discount = d
-    self.raiting = r
+    def __init__(self, d, r):
+        self.discount = d
+        self.raiting = r
 
 
 
@@ -36,7 +36,7 @@ Class Customer (User):
 #   Управление Клиентами
 #   Управление контентом (Изображениями)
 
-Class Admin:
+Class Admin(User):
 
 
 #Picture
@@ -46,11 +46,11 @@ Class Admin:
 #       quality assessment
 
 Class Picture:
-    description =
-    prise =
-    raiting =
-    quality_assessment
-
+    def __init__(self, d, p, r, q)
+        self.description=  d
+        self.prise = p
+        self.raiting = r
+        self.quality_assessment = q
 
 #ImageCatalog
 
