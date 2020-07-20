@@ -46,7 +46,7 @@ Class Admin(User):
 #       quality assessment
 
 Class Picture:
-    def __init__(self, d, p, r, q)
+    def __init__(self, d, p, r, q):
         self.description=  d
         self.prise = p
         self.raiting = r
