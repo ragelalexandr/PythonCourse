@@ -20,7 +20,7 @@ Class User:
         self.sname = sn
         self.email = e
         self.login = l
-        self.pass = p
+        self.password = p
 
 Class Customer (User):
     def __init__(self, d, r)
