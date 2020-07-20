@@ -22,11 +22,13 @@ Class User:
         self.login = l
         self.password = p
 
+
 Class Customer (User):
     def __init__(self, d, r):
         self.discount = d
         self.raiting = r
 
+    def find():
 
 
 #Administrator
