@@ -14,6 +14,21 @@
 #   получать скидки
 #   получать повышение рейтинга
 
+Class User:
+    def __init__(self, fn, sn, e, l, p):
+        self.fname = fn
+        self.sname = sn
+        self.email = e
+        self.login = l
+        self.pass = p
+
+Class Customer (User):
+    def __init__(self, d, r)
+    self.discount = d
+    self.raiting = r
+
+
+
 #Administrator
 #       name
 #       email
@@ -21,11 +36,21 @@
 #   Управление Клиентами
 #   Управление контентом (Изображениями)
 
+Class Admin:
+
+
 #Picture
 #       description
 #       prise
 #       raiting
 #       quality assessment
+
+Class Picture:
+    description =
+    prise =
+    raiting =
+    quality_assessment
+
 
 #ImageCatalog
 
